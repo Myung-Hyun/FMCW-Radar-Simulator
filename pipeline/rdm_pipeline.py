@@ -1,10 +1,10 @@
 import numpy as np
 
-from radar_dsp_library.core.window import hann_window
-from radar_dsp_library.range.range_fft import range_fft
-from radar_dsp_library.doppler.doppler_fft import doppler_fft
-from radar_dsp_library.doppler.velocity_axis import VelocityAxis
-from radar_dsp_library.range.range_axis import RangeAxis
+from dsp.core.window import hann_window
+from dsp.range_processing.range_fft import range_fft
+from dsp.doppler_processing.doppler_fft import doppler_fft
+from dsp.doppler_processing.velocity_axis import VelocityAxis
+from dsp.range_processing.range_axis import RangeAxis
 
 
 class RDMPipeline:

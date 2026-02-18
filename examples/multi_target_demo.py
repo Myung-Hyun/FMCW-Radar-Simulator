@@ -1,10 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from simulator.pipeline.simulation_runner import SimulationRunner, RadarConfig
-from simulator.pipeline.signal_generator import Target
+from pipeline.simulation_runner import SimulationRunner, RadarConfig
+from pipeline.signal_generator import Target
 
-from radar_dsp_library.rdm.rdm_visualization import RDMVisualizer
+from dsp.rdm.rdm_visualization import RDMVisualizer
 
 def main():
     cfg = RadarConfig(
